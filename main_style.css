@@ -1,0 +1,54 @@
+body{
+    background-color : #dfe230;
+}
+
+ul.links{
+    color: #32384D;
+    list-style: none;
+}
+
+.links >a > li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.links > a{
+    text-decoration: none;
+    color: #32384D;
+}
+
+.links > a :hover{
+    color:#fb00ff;
+}
+
+
+hr{
+    color: #0000FF;
+}
+
+.end{
+    font: 100;
+    color: red;
+}
+
+ul.goods_list{
+    list-style: none;
+}
+
+.good_title{
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.good_text{
+    color: lightcoral;
+    text-decoration: none;
+}
+
+.good_sells{
+    color: #217CA3;
+}
+
+ul.goods_list > li{
+    display: inline;
+}
