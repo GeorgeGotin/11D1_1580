@@ -26,18 +26,19 @@ hr{
     color: #0000FF;
 }
 
-.end{
-    font: 100;
-    color: red;
-}
 
 ul.goods_list{
     list-style: none;
 }
 
+
 .good_title{
     color: dodgerblue;
     text-decoration: none;
+}
+
+a.good_title :hover{
+    color : rgb(153, 0, 255);
 }
 
 .good_text{
@@ -45,10 +46,17 @@ ul.goods_list{
     text-decoration: none;
 }
 
+a.good_text :hover{
+    color :#008f53;
+}
+
 .good_sells{
     color: #217CA3;
 }
 
-ul.goods_list > li{
-    display: inline;
+
+.end{
+    font: 100;
+    color: red;
 }
+
