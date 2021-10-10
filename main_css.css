@@ -33,8 +33,14 @@ body{
     list-style: none;
 }
 
+.logo{
+    margin-left: 2px;
+    height: 25px;
+    display: inline;
+}
 
 .header{
+    display: inline;
     list-style: none;
     padding-top: 0%;
     padding-bottom: 0%;
@@ -42,7 +48,7 @@ body{
     margin-block-end: 0%;
     padding-inline-start: 0%;
     margin-right:5%;
-    text-align: right;
+    text-align: left;
 }
 .footer{
     list-style: none;
@@ -51,8 +57,8 @@ body{
     margin-block-start: 0%;
     margin-block-end: 0%;
     padding-inline-start: 0%;
-    margin-right:5%;
-    text-align: right;
+    margin-right:0%;
+    text-align: left;
 }
 .list_item{
     margin-left:1%;
@@ -80,6 +86,7 @@ body{
     margin:1%;
     outline-color:rgb(161 0 122);
     align-items: center;
+    height: 500px;
 }
 .goods_item:hover{
     outline-width: 5px;
@@ -93,20 +100,23 @@ body{
     margin: 0%;
     margin-left:2%;
     display: inline-block;
-    width:60%;
+    width:60% !important;
     font: bold;
-    font-size:250%;
+    font-size:100%;
+    height: 10%;
 }
 .goods_description{
     margin-left:2%;
     font: 2em;
+    height: 15%;
 }
 .goods_price{
     margin:0%;
     display: inline-block;
     text-align: right;
-    width:35%;
-    font-size:250%;
+    width:auto;
+    font-size: 100%;
+    height: 10%;
 }
 .goods_list>a{
     color:rgb(255, 215, 246);
@@ -166,4 +176,12 @@ body{
 }
 
 
+@media screen and (max-width: 980px) {
+    .goods_list > a{
+        display: block;
+    }
+    .goods_item{
+        margin-top: 9.325px;
+    }
+}
 
