@@ -1,65 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main_css.css">
     <title>Каталог</title>
 </head>
 
-<body bgcolor="#E29930">
-    <ul>
-        <a style="color: #32384D;" href="index.html">
-            <li>Главная</li>
-        </a>
-        <a style="color: #32384D;" href="#">
-            <li>Каталог</li>
-        </a>
-        <a style="color: #32384D;" href="about.html">
-            <li>О нас</li>
-        </a>
-    </ul>
-    <hr color="Blue">
-    <hr color="Blue">
+<body>
+    <div class="container">
+        <div class="header_wrapper">
+            <header class="header-footer">
+                <img class="logo" src="./images/logo.png" alt="">
 
-    <ul style="color: dodgerblue;">
-        <!--strangulation-->
-        <li>
-            <a style="color: dodgerblue;" href="goods/strangulation.html">
-                <h1>Цепь Арго</h1>
+
+                <ul class="header">
+                    <li class="list_item">
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="about.html">О нас</a>
+                    </li>
+                </ul>
+            </header>
+        </div>
+
+
+        <div class="goods_list">
+            <a href="./goods/strangulation.html">
+                <div class="goods_item">
+                    <img class="goods_img" src="./images/strangulation.png">
+                    <h3 class="goods_name">Цепь Арго</h3>
+                    <h3 class="goods_price">300$</h3>
+                    <p class="goods_description">Мягкие руки убаюкают Вас</p>
+                    <button class="buy_button">Buy</button>
+                </div>
             </a>
-            <a href="https://www.youtube.com/watch?v=DrnKM4mGDIQ&t=29s"><img src="images/strangulation.png" width="320"
-                    height="180" alt="Короче она человечка душит"></a>
-            <a style="color:lightcoral" href="goods/strangulation.html">
-                <h2>Мягкие руки убаюкают Вас</h2>
+            <a href="./goods/hanging.html">
+                <div class="goods_item"><img class="goods_img" src="./images/hanging.png">
+                    <h3 class="goods_name">Шарф</h3>
+                    <h3 class="goods_price">300$</h3>
+                    <p class="goods_description">Стандартный способ зависнуть с друзьями</p>
+                    <button class="buy_button">Buy</button>
+                </div>
             </a>
-        </li>
-        <hr color="Red">
-        <!--hanging-->
-        <li>
-            <a style="color:dodgerblue;" href="./goods/hanging.html">
-                <h1>Шарф</h1>
+            <a href="./goods/chop.html">
+                <div class="goods_item"><img class="goods_img" src="./images/strangulation.png">
+                    <h3 class="goods_name">Кухонный нож</h3>
+                    <h3 class="goods_price">300$</h3>
+                    <p class="goods_description">Хороший массаж от наших профессионалов</p>
+                    <button class="buy_button">Buy</button>
+                </div>
             </a>
-            <a href="https://www.youtube.com/watch?v=DrnKM4mGDIQ&t=175s"><img src="images/hanging.png" width="320"
-                    height="180" alt="Четыре человечка висят и болтаются"></a>
-            <a style="color:lightcoral" href="./goods/hanging.html">
-                <h2>Стандартный способ зависнуть с друзьями</h2>
-            </a>
-        </li>
-        <hr color="Red">
-        <!--chop-->
-        <li>
-            <a style="color: dodgerblue;" href="./goods/chop.html">
-                <h1>Кухонный нож</h1>
-            </a>
-            <a href="https://www.youtube.com/watch?v=DrnKM4mGDIQ&t=33s"><img src="images/chop.png" width="320"
-                    height="180" alt="КРОВЬ МЫСО ПРЕЗЕРВАТТИВ"></a>
-            <a style="color:lightcoral" href="./goods/chop.html">
-                <h2>Хороший массаж от наших профессионалов</h2>
-            </a>
-        </li>
-        <hr color="Blue">
-    </ul>
-    <p style="font: 100;color: red;">Все права на персонажей пренадлежат Tradigrade Inferno</p>
+        </div>
+
+
+
+
+        <div class="footer_wrapper">
+            <footer class="header-footer">
+                <ul class="footer">
+                    <li class="list_item">
+                        <a href="#">Мы в ВК</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#">Мы в Twiter</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#">Мы на YouTube</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
 </body>
 
 </html>

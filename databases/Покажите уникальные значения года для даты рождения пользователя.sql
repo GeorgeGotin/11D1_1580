@@ -1,0 +1,1 @@
+SELECT DISTINCT SUBSTR(DATE(birth_date),1,4) as Birth_dates FROM clients;
