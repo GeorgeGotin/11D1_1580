@@ -1,0 +1,1 @@
+SELECT AVG(DATE("now") - birth_date) FROM clients WHERE DATE("now","-2 month") - registration_date > 0;
