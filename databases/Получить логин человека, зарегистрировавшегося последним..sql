@@ -1,1 +1,0 @@
-SELECT login FROM clients WHERE registration_date = (SELECT MAX(registration_date) FROM clients);
